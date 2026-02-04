@@ -1,0 +1,15 @@
+/* style.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* Hiding overflow is mandatory to prevent scrollbars on signage */
+    overflow: hidden; 
+    /* Matches your p5.js background (#1C1B1C) to prevent a white flash on load */
+    background-color: #1C1B1C; 
+}
+
+canvas {
+    display: block; /* Removes the small 4px gap at the bottom of the canvas */
+}
